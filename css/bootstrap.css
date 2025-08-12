@@ -6562,33 +6562,3 @@ button.close {
     display: none !important;
   }
 }
-/* ===============================
-   Ajustes de navegación Bootstrap
-   =============================== */
-
-/* Evitar que el icono del menú se salga en móvil */
-.navbar-header {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-/* Reducir padding de la barra en móvil */
-@media (max-width: 768px) {
-    #menu {
-        padding: 5px 10px;
-    }
-    #menu.navbar-default .navbar-nav > li > a {
-        margin: 5px 0;
-        font-size: 14px;
-    }
-    .navbar-toggle {
-        margin-right: 0;
-    }
-}
-
-/* Evitar desbordes de contenido horizontal */
-body, html {
-    overflow-x: hidden;
-}
